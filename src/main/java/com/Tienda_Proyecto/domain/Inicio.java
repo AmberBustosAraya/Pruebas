@@ -8,10 +8,7 @@ import lombok.Data;
 @Data
 @Entity
 @Table(name = "inicio")
-public class Inicio implements Serializable {
-
-    private static final long serialVersinUID =1L;
-    
+public class Inicio implements Serializable {    
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY) 
     @Column (name="id_categoria")
